@@ -1,0 +1,138 @@
+:root {
+  --basic-black:#000000;
+  --light-black:#333333;
+  --basic-white:#FFFFFF;
+  --light-blue:#81B3D2;
+  --basic-gray:#F2F2F2;
+  --white-rgba:rgba(255, 255, 255, 0.9);
+  --light-gray: #EEEEEE;
+  --special-brown:#766357;
+}
+
+body {
+  min-width: 1280px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--basic-black);
+  background-color:var(--basic-gray);
+}
+
+.page a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color:var(--basic-black);
+}
+
+.info-link:hover {
+  color:var(--light-blue);
+}
+
+.info-link:active {
+  mix-blend-mode: normal;
+  opacity: 0.3;
+}
+
+.info-link:focus {
+  color:var(--special-brown);
+}
+
+.features h1 {
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  color:var(--basic-black);
+}
+
+.features h2 {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: normal;
+  text-align: center;
+  color:var(--light-black);
+}
+
+.features h3 {
+  text-align: center;
+  font-size: 21px;
+  line-height: 21px;
+  color:var(--basic-black);
+}
+
+.features p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  color:var(--light-black);
+}
+
+
+.feature-item1, .feature-item2 {
+  list-style: none;
+  text-align: center;
+  color:var(--basic-white);
+  background-color:var(--light-blue);
+}
+
+.offers {
+  list-style:none;
+  background-color:var(--basic-white);
+}
+
+.feature-item3, .feature-item4, .feature-item5 {
+  list-style:none;
+  background-color:var(--light-gray);
+}
+
+main h2 {
+  font-size: 30px;
+  line-height: 24px;
+  text-align: center;
+  color:var(--basic-black);
+}
+
+main p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+  text-align: center;
+  color:var(--light-black);
+}
+
+.footer {
+  background-color: var(--white-rgba);
+}
+
+.footer-contact {
+  text-align: center;
+  font-size: 21px;
+  line-height: 26px;
+  color:var(--basic-black);
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: normal;
+  color:var(--basic-black);
+}
+
