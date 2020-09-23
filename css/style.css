@@ -20,10 +20,6 @@ body {
   background-color:var(--basic-gray);
 }
 
-.page a {
-  text-decoration: none;
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -42,16 +38,16 @@ img {
   color:var(--basic-black);
 }
 
-.info-link:hover, .photo-video:hover, .map-state:hover, .hotels-link:hover {
+.site-navigation-menu:hover {
   color:var(--light-blue);
 }
 
-.info-link:active, .photo-video:active, .map-state:active, .hotels-link:active {
+.site-navigation-menu:active {
   mix-blend-mode: normal;
   opacity: 0.3;
 }
 
-.info-link:focus, .photo-video:focus, .map-state:focus, .hotels-link:focus  {
+.site-navigation-menu:focus  {
   color:var(--special-brown);
 }
 
