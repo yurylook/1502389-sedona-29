@@ -42,16 +42,16 @@ img {
   color:var(--basic-black);
 }
 
-.info-link:hover {
+.info-link:hover, .photo-video:hover, .map-state:hover, .hotels-link:hover {
   color:var(--light-blue);
 }
 
-.info-link:active {
+.info-link:active, .photo-video:active, .map-state:active, .hotels-link:active {
   mix-blend-mode: normal;
   opacity: 0.3;
 }
 
-.info-link:focus {
+.info-link:focus, .photo-video:focus, .map-state:focus, .hotels-link:focus  {
   color:var(--special-brown);
 }
 
@@ -80,6 +80,7 @@ img {
 .features p {
   font-size: 14px;
   line-height: 21px;
+  text-align: center;
   font-weight: normal;
   color:var(--light-black);
 }
@@ -102,14 +103,14 @@ img {
   background-color:var(--light-gray);
 }
 
-main h2 {
+.question {
   font-size: 30px;
   line-height: 24px;
   text-align: center;
   color:var(--basic-black);
 }
 
-main p {
+.preview-hotel {
   font-size: 14px;
   line-height: 24px;
   font-weight: normal;
