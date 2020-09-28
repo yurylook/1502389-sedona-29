@@ -133,3 +133,14 @@ img {
   color:var(--basic-black);
 }
 
+.welcome {
+  background-image: url("../img/main-photo.jpg");
+}
+
+.page {
+  height: 100%;
+}
+
+.social-button {
+  background-color: var(--light-blue);
+}
