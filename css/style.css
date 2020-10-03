@@ -272,3 +272,19 @@ img {
 .stars-list {
   list-style: none;
 }
+
+.hotels-list {
+  list-style: none;
+}
+
+.up-dir {
+ width: 11px;
+ height: 10px;
+ background-color:var(--light-blue);
+}
+
+.up-down {
+  width: 11px;
+  height: 10px;
+  background-color:var(--light-blue);
+ }
