@@ -10,10 +10,10 @@
   <body class="page-body">
     <header class="header">
       <nav class="main-navigation">
-        <img src="img/logo-city.svg" width="138" height="70" alt="Логотип города Седона">
         <ul class="site-navigation">
           <li><a class="site-navigation-menu  info-link" href="#">ИНФОРМАЦИЯ</a></li>
           <li><a class="site-navigation-menu  photo-video" href="#">ФОТО И ВИДЕО</a></li>
+          <li><img class="logo-city" src="img/logo-city.svg" width="138" height="70" alt="Логотип города Седона"></li>
           <li><a class="site-navigation-menu  map-state" href="#">КАРТА ШТАТА</a></li>
           <li><a class="site-navigation-menu  hotels-link " href="hotels.html">ГОСТИНИЦЫ</a></li>
         </ul>
@@ -22,11 +22,11 @@
 
     <main class="container">
 
-      <img class="welcome" src="img/welcome.svg" width="456" height="351" alt="welcome to the gorgeous Sedona">
-      <img class="main-photo" src="img/main-photo.jpg" width="1200" height="509" alt="болшое фото каньона ">
-
+      <div class="photo-welcome">
+        <img class="welcome" src="img/welcome.svg" width="456" height="351" alt="welcome to the gorgeous Sedona">
+      </div>
       <section class="features">
-        <h1>
+        <h1 class=sedona-h1>
           СЕДОНА-НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br>
           ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!<br>
         </h1>
@@ -36,7 +36,7 @@
             <h3>НАСТОЯЩИЙ ГОРОДОК </h3>
             <p>-№1-<br>CЕДОНА-НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ,ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
           </li>
-          <li>
+          <li class="photo-city">
             <img src="img/image-city.jpg" width="800" height="256" alt="фото города">
           </li>
           <li class="offers">
@@ -54,7 +54,7 @@
             <h3>СУВЕНИРЫ</h3>
             <p>НЕ ТОЛЬКО КИТАЙСКОГО,НО И МЕСТНОГО ПРОИЗВОДСТВА!</p>
           </li>
-          <li>
+          <li class="photo-nature">
             <img src="img/image-nature.jpg" width="800" height="256" alt="фото каньона">
           </li>
           <li class="feature-item2">
@@ -75,12 +75,13 @@
           </li>
         </ul>
       </section>
-
-      <h2 class="question">ЗАИНТЕРЕСОВАЛИСЬ?</h2>
-      <p class="preview-hotel ">УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ,<br>И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОХЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
-
-      <img src="img/map1.jpg" width="1199" height="594" alt="Седона на карте">
-
+      <div>
+        <h2 class="question">ЗАИНТЕРЕСОВАЛИСЬ?</h2>
+        <p class="preview-hotel ">УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ,<br>И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОХЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
+      </div>
+      <div class="map-city">
+       <!-- <img class="map" src="img/map1.jpg" width="1199" height="594" alt="Седона на карте">-->
+      </div>
     </main>
 
     <footer class="footer">

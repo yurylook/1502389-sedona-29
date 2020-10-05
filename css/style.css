@@ -30,12 +30,9 @@ img {
   height: auto;
 }
 
-.main-navigation {
-  font-size: 14px;
-  line-height: 26px;
-}
-
 .site-navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   list-style: none;
 }
 
@@ -88,6 +85,10 @@ img {
 
 .features-list{
   list-style: none;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 256px 330px 256px 256px;
 }
 
 .feature-item1, .feature-item2 {
@@ -120,7 +121,11 @@ img {
 }
 
 .footer {
+  width: 1200px;
+  justify-self: center;
   background-color: var(--white-rgba);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .footer-contact {
@@ -138,12 +143,19 @@ img {
   color:var(--basic-black);
 }
 
-.welcome {
+.photo-welcome {
+  justify-self: center;
   background-image: url("../img/main-photo.jpg");
+  width: 1200px;
+}
+
+.welcome {
+  padding: 78px 372px 81px 371px;
 }
 
 .page {
   height: 100%;
+
 }
 
 .social-links {
@@ -288,3 +300,50 @@ img {
   height: 10px;
   background-color:var(--light-blue);
  }
+
+.page-body {
+  min-height: 100%;
+  width: 1280px;
+  display: grid;
+  grid-template-rows: 55px 1fr min-content;
+  align-content: start;
+}
+
+.logo-city {
+  justify-self: center;
+}
+
+.main-navigation {
+  margin: 0 auto;
+  padding: 0 10px;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.container {
+  grid-row-start:2;
+  grid-row-end:-1;
+  display: grid;
+  grid-template-rows: 510px  auto  1fr 594px;
+}
+
+.photo-city {
+  grid-column-start: 2;
+  grid-column-end: -1;
+}
+
+.photo-nature {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.map-city {
+  width: 1200px;
+  justify-self: center;
+  background-image: url("../img/map1.jpg") ;
+  margin: 0 auto;
+}
+
+.sedona-h1 {
+  margin-top: 43px;
+}
