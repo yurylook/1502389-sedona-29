@@ -318,12 +318,6 @@ img {
   line-height: 26px;
 }
 
-.container {
-  grid-row-start:2;
-  grid-row-end:-1;
-
-}
-
 .feature-item1 {
 
   grid-column-start: 1;
@@ -357,6 +351,7 @@ img {
 
 .hotels-list {
   display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 
@@ -382,3 +377,17 @@ img {
   width: 1200px;
 }
 
+.amara {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.desert {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.villas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
