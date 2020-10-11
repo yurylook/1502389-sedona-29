@@ -19,8 +19,6 @@
 }
 
 body {
-  min-width: 100%;
-  margin: 0;
   padding: 0;
   font-family: "PT Sans", Arial, sans-serif;
   font-weight: 700;
@@ -31,7 +29,10 @@ body {
 
 img {
   max-width: 100%;
-  height: auto;
+}
+
+.header {
+  position: relative;
 }
 
 .main-navigation {
@@ -43,14 +44,12 @@ img {
 .site-navigation {
   width: 1200px;
   display: flex;
-  /**justify-content: center;
- /** display: grid;
-  grid-template-columns: 1fr 1fr  1fr 1fr ;**/
   list-style: none;
 }
 
 .site-navigation a {
   color:var(--basic-black);
+  text-decoration: none;
 }
 
 .site-navigation-menu:hover {
@@ -67,7 +66,7 @@ img {
 }
 
 .photo-welcome {
-  margin: 0 0 0 40px;
+  margin-left: 40px;
   background-image: url("../img/main-photo.jpg");
   width: 1200px;
 }
@@ -125,9 +124,6 @@ img {
 }
 
 .offers {
-  display:flex;
-  flex-direction: column;
-  align-items: center;
   background-color:var(--basic-white);
   height: 330px;
 }
@@ -165,6 +161,7 @@ img {
   margin-left:40px;
   width: 1200px;
   margin-top: 78px;
+  margin-bottom: -120px;
 }
 
 .preview-hotel {
@@ -177,10 +174,7 @@ img {
 
 .footer {
   width: 1200px;
- /** justify-self: center;**/
   background-color: var(--white-rgba);
- /** display: grid;
-  grid-template-columns: 1fr 1fr 1fr;**/
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -215,11 +209,18 @@ img {
   font-weight: normal;
   color:var(--basic-black);
   display: flex;
+  align-items: center;
   margin-right: 138px;
 }
 
 .foot-copyright {
   margin-right: 8px;
+}
+
+.page-body-catalog {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hotel-name {
@@ -250,6 +251,7 @@ img {
   line-height: 21px;
   font-weight: normal;
   color:var(--light-black);
+  margin-left: 20px;
 }
 
 .hotel-raiting {
@@ -284,6 +286,7 @@ img {
   font-weight: bold;
   color:var(--basic-white);
   background-color:var(--special-brown);
+  margin-left:10px;
 }
 
 .book:hover {
@@ -326,8 +329,10 @@ img {
 .page-body {
   min-height: 100%;
   width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   display: grid;
-  grid-template-rows: 55px 1fr min-content;
+  grid-template-rows: 55px 1fr 120px;
   align-content: start;
 }
 
@@ -380,8 +385,8 @@ img {
 
 .logo-city {
   position: absolute;
-  margin-top:0;
-  margin-left:565px;
+  top:0;
+  left:565px;
 }
 
 .filter {
@@ -397,7 +402,7 @@ img {
   height: 86px;
   display: flex;
   margin-left: 40px;
-  align-items: baseline;
+  align-items: center;
   outline-offset: -5px;
   outline: 5px solid green;
 }
@@ -443,7 +448,6 @@ img {
 
 .amara, .desert, .villas {
   display: flex;
-  height: 90px;
   margin-left: 72px;
   outline-offset: -5px;
   outline: 5px solid slateblue;
@@ -460,27 +464,28 @@ img {
 .amara-name, .desert-name, .villas-name {
   height:90px;
   margin-left: 30px;
-  display: grid;
-  grid-template-columns: 118px 142px;
-  grid-template-rows: 30px 30px 30px;
   outline-offset: -5px;
   outline: 5px solid gold;
 }
 
+.hotel-info {
+  display: flex;
+  margin-top: -30px;
+}
+
 .amara-name h2, .desert-name h2, .villas-name h2 {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
   margin-top: 0;
 }
-.amara-name p, .desert-name p, .villas-name p {
-  margin-top: 0;
+
+.booking {
+  margin-top: -10px;
 }
 
 .stars-list {
   display: flex;
   list-style: none;
-  padding-right:0;
+ justify-content: flex-end;
+
 }
 
 .amara-raiting, .desert-raiting, .villas-raiting {
