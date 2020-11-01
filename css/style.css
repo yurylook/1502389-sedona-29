@@ -15,6 +15,7 @@
   --middle-gray:#CACACA;
   --gray-brown:#766357;
   --special-gray:#EBEBEB;
+  --special-violet:BDBBBC;
 }
 
 .page {
@@ -83,7 +84,8 @@ img {
 }
 
 .site-navigation-menu:focus  {
-  color:var(--special-brown);
+ /** color:var(--special-brown);**/
+ color:red;
 }
 
 .photo-welcome {
@@ -242,6 +244,9 @@ img {
   padding-top: 9px;
 }
 
+input, button {
+ outline: none;
+}
 
 .search-button {
   width: 568px;
@@ -307,9 +312,9 @@ img {
 }
 
 .booking-info input:focus {
-  background: var(--basic-white);
-  border: 2px solid #E5E5E5 ;
-  box-sizing: border-box;
+  background-color: var(--basic-white);
+  outline: 2px solid #E5E5E5 ;
+  outline-offset: -3px;
 }
 
 .arrival, .departure {
@@ -360,7 +365,7 @@ img {
 .booking-info.adult input {
   width: 38px;
   height: 38px;
-  margin-top: 3px;
+  margin-top: 7px;
   margin-left:73px;
   text-align: center;
 }
@@ -413,6 +418,10 @@ img {
   background-color: var(--dark-blue);
 }
 
+.button-date:active span{
+  opacity: 0.3;
+}
+
 .select-date-button {
   height: 30px;
   position: absolute;
@@ -435,6 +444,7 @@ img {
   position: absolute;
   top:7px;
   right: 59px;
+  background-color:transparent;
   border: none;
 }
 
@@ -493,7 +503,7 @@ img {
 
 .select-adult.up {
   position: absolute;
-  top:3px;
+  top:7px;
   left:239px;
   height: 40px;
   width: 38px;
@@ -503,7 +513,7 @@ img {
 
 .select-adult.down {
   position: absolute;
-  top:3px;
+  top:7px;
   left:166px;
   height: 40px;
   width: 38px;
@@ -515,7 +525,7 @@ img {
 .select-adult::before{
   content: "";
   position: absolute;
-  top:21px;
+  top:18px;
   left:14px;
   width: 12px;
   height: 3px;
@@ -607,7 +617,7 @@ img {
   background-color: var(--basic-blue);
 }
 
-.youtube:active, .fb:active, .twitter:hover{
+.youtube:active, .fb:active, .twitter:active{
   background-color: var(--dark-blue);
 }
 
@@ -634,13 +644,17 @@ img {
   margin-right: 8px;
 }
 
-.logo-htmlacademy :hover {
-  stroke:var(--light-blue);
+.logo-academy {
+  width: 115px;
+  height: 41px;
 }
 
-.logo-htmlacademy :active {
-  opacity: 0.5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.logo-academy :hover {
+  fill:var(--light-blue);
+}
+
+.logo-academy :active {
+  fill:var(--special-violet);
 }
 
 .page-body-catalog {
@@ -696,9 +710,11 @@ img {
   text-align: center;
   color:var(--middle-black);
   width: 110px;
-  height: 27px;
+  height: 24px;
   text-align: center;
+  padding-top: 3px;
   background-color: var(--basic-gray);
+  margin-top: 47px;
 }
 
 
@@ -709,8 +725,10 @@ img {
   color:var(--basic-white);
   background-color:var(--light-blue);
   width: 110px;
-  margin-top: 14px;
+  height: 24px;
+  margin-top: 10px;
   text-align: center;
+  padding-top: 3px;
   text-decoration: none;
 }
 
@@ -720,8 +738,7 @@ img {
 
 .detail:active {
   background-color:var(--dark-blue);
-  mix-blend-mode: normal;
-  opacity: 0.3;
+  color:rgba(255,255,255,0.3)
 }
 
 .book {
@@ -730,9 +747,11 @@ img {
   font-weight: bold;
   color:var(--basic-white);
   background-color:var(--special-brown);
-  margin-top: 15px;
+  margin-top: 10px;
   margin-left:6px;
   width: 142px;
+  height: 24px;
+  padding-top: 3px;
   text-align: center;
   text-decoration: none;
 }
@@ -743,8 +762,8 @@ img {
 
 .book:active {
   background-color:var(--dark-brown);
-  mix-blend-mode: normal;
-  opacity: 0.3;
+  color:rgba(255,255,255,0.3)
+
 }
 
 .search {
@@ -1054,10 +1073,11 @@ color:var(--basic-white);
 
 .filter-option-label {
  position: relative;
- display: block;
+ display: inline-block;
  cursor: pointer;
  user-select: none;
  margin-top: 25px;
+ width: auto;
 }
 
 .filter-input + label::before {
@@ -1188,7 +1208,7 @@ color:var(--basic-white);
 
 .booking {
   display: flex;
-  margin-top: -10px;
+  margin-top: -8px;
 }
 
 .stars-list {
@@ -1227,9 +1247,6 @@ color:var(--basic-white);
 .villas-raiting.hotel-raiting {
   margin-top: 44px;
 }**/
-.hotel-raiting {
-  margin-top: 44px;
-}
 
 .footer.catalog {
   margin-top: -48px;
