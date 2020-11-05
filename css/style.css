@@ -25,6 +25,7 @@
 .page-body {
   min-height: 100%;
   background-color:var(--basic-gray) ;
+  overflow-x: hidden;
 }
 
 .page-wrapper {
@@ -354,8 +355,8 @@ input, button {
 }
 
 .booking-info.arrival input {
-  margin-left: 25px;
-  padding-left: 4px;
+  margin-left: 22px;
+  padding-left: 11px;
 }
 
 
@@ -368,8 +369,8 @@ input, button {
   margin-left: -1px;
 }
 .booking-info.departure input {
-  margin-left: 22px;
-  padding-left: 4px;
+  margin-left: 18px;
+  padding-left: 11px;
 }
 
 .booking-info.adult {
@@ -695,6 +696,7 @@ input, button {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  overflow-x: hidden;
 }
 
 .hotel-name {
@@ -829,6 +831,7 @@ input, button {
 }
 
 .hotels-list {
+  width: 1160px;
   list-style: none;
 }
 
@@ -891,7 +894,7 @@ input, button {
 }
 
 .filter {
-  width: 1200px;
+  width: 1160px;
   margin-left: 40px;
   position: relative;
 }
@@ -1160,7 +1163,7 @@ color:var(--basic-white);
   height: 86px;
   display: flex;
   align-items: center;
-  margin-top: -1xp;
+  margin-top: -1px;
   margin-left: 1px;
 }
 
@@ -1273,7 +1276,7 @@ color:var(--basic-white);
 .amara-raiting, .desert-raiting, .villas-raiting {
   width: 110px;
   margin-left: auto;
-  margin-right: 113px;
+  margin-right: 73px;
 }
 
 .amara-raiting {
@@ -1281,7 +1284,7 @@ color:var(--basic-white);
 }
 
 .footer.catalog {
-  margin-top: -48px;
+  margin-top: -46px;
   height: 120px;
 }
 
