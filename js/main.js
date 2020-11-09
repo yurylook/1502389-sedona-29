@@ -38,8 +38,8 @@ buttonSelect.addEventListener("click", function(evt) {
   }
 });
 
-  document.addEventListener('keydown', function (evt) {
-    if (evt.key === 'Escape') {
+  document.addEventListener("keydown", function (evt) {
+    if (evt.key === "Escape") {
       evt.preventDefault();
       modalForm.classList.remove("modal-show");
       modalForm.classList.remove(".modal-error");

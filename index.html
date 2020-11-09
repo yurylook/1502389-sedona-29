@@ -5,24 +5,32 @@
     <title>HTML Academy: Седона</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body class="page-body">
     <div class="page-wrapper">
     <header class="header">
       <nav class="main-navigation">
-        <img class="logo-city" src="img/logo-city.svg" width="138" height="70" alt="Логотип города Седона">
+        <a title="Мы находимся на главной странице">
+          <img class="logo-city" src="img/logo-city.svg" width="138" height="70" alt="Логотип города Седона">
+        </a>
         <ul class="site-navigation">
-          <li class="navigation"><a class="site-navigation-menu  info-link" href="#">ИНФОРМАЦИЯ</a></li>
-          <li class="navigation"><a class="site-navigation-menu  photo-video" href="#">ФОТО И ВИДЕО</a></li>
-          <li class="navigation right"><a class="site-navigation-menu  map-state" href="#">КАРТА ШТАТА</a></li>
-          <li class="navigation right"><a class="site-navigation-menu  hotels-link " href="hotels.html">ГОСТИНИЦЫ</a></li>
+          <li class="navigation">
+            <a class="site-navigation-menu  info-link" href="#">информация</a>
+          </li>
+          <li class="navigation">
+            <a class="site-navigation-menu  photo-video" href="#">фото и видео</a>
+          </li>
+          <li class="navigation right">
+            <a class="site-navigation-menu  map-state" href="#">карта штата</a>
+          </li>
+          <li class="navigation right">
+            <a class="site-navigation-menu  hotels-link" href="hotels.html">гостиницы</a>
+          </li>
         </ul>
       </nav>
     </header>
-
     <main class="container">
-
       <div class="photo-welcome">
         <img class="welcome" src="img/welcome.svg" width="456" height="351" alt="welcome to the gorgeous Sedona">
       </div>
@@ -31,77 +39,80 @@
       </div>
       <section class="features">
         <h1 class="sedona-h1">
-          СЕДОНА &ndash; НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br> ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!
+          Седона &ndash; небольшой городок в Аризоне, заслуживающий большего!
         </h1>
-        <h2 class="five-reason"> РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ ЧЕМ, ГРАНД КАНЬОН!</h2>
+        <p class="five-reason"> рассмотрим 5 причин, по которым Седона круче чем, Гранд Каньон!</p>
         <ul class="features-list">
           <li class="feature-item1">
             <div>
-              <h3>НАСТОЯЩИЙ<br/> ГОРОДОК </h3>
+              <h3>настоящий городок </h3>
               <p class="item1-number">-№1-</p>
-              <p class="item1-text">CЕДОНА-НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ,ТАМ <br>ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+              <p class="item1-text">Cедона-не аттракцион для туристов,там течет своя жизнь</p>
             </div>
             <img class="photo-city" src="img/image-city.jpg" width="800" height="256" alt="фото города">
           </li>
           <li class="offers house">
             <p><img src="img/icon-house.svg" width="75" height="72" alt="иконка дом"></p>
-            <h3>ЖИЛЬЕ</h3>
-            <p class="house-text">РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ<br> МОТЕЛЕ.ВСЁ КАК В КИНО!</p>
+            <h3>жильё</h3>
+            <p class="house-text">рекомендуем пожить в настоящем мотеле,всё как в кино!</p>
           </li>
           <li class="offers food">
-            <p><img src="img/icon-food.svg" width="75" height="70" alt="иконка еды"></p>
-            <h3>ЕДА</h3>
-            <P class="food-text">ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР.<br>ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</P>
+            <p>
+              <img src="img/icon-food.svg" width="75" height="70" alt="иконка еды">
+            </p>
+            <h3>еда</h3>
+            <p class="food-text">всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
           </li>
           <li class="offers box">
-            <p><img src="img/icon-box.svg" width="64" height="77" alt="иконка подарка"></p>
-            <h3>СУВЕНИРЫ</h3>
-            <p class="food-text">НЕ ТОЛЬКО КИТАЙСКОГО,НО И МЕСТНОГО<br> ПРОИЗВОДСТВА!</p>
+            <p>
+              <img src="img/icon-box.svg" width="64" height="77" alt="иконка подарка">
+            </p>
+            <h3>сувениры</h3>
+            <p class="food-text">не только китайского,но и местного производства!</p>
           </li>
           <li class="feature-item2">
-            <img class="photo-nature"  src="img/image-nature.jpg" width="800" height="256" alt="фото каньона">
+            <img class="photo-nature" src="img/image-nature.jpg" width="800" height="256" alt="фото каньона">
             <div>
-              <h3>ТАМ ЕСТЬ<br/> МОСТ ДЬЯВОЛА </h3>
+              <h3>там есть мост дьявола </h3>
               <p class="item2-number">-№2-</p>
-              <p class="item2-text">ДА.ПО НЕМУ МОЖНО ПРОЙТИ!ЕСЛИ КОНЕЧНО <br>  ВЫ ОСМЕЛИТЕСЬ</P>
+              <p class="item2-text">да,по нему можно пройти!если конечно вы осмелитесь</P>
             </div>
           </li>
           <li class="feature-item3">
-            <h3>НЕБОЛЬШАЯ<br/> ПЛОЩАДЬ</h3>
-            <p class="item-number">&mdash; №3 &mdash;</p>
-            <p class="item-text">ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ<br> НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
+            <h3>небольшая площадь</h3>
+            <p class="item-number">&mdash;№3&mdash;</p>
+            <p class="item-text">все достопримечательности находятся очень близко</p>
           </li>
           <li class="feature-item4">
-            <h3>КРАСИВАЯ<br/> ДОРОГА </h3>
-            <p class="item-number">&mdash; №4 &mdash;</p>
-            <p class="item-text"> ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ<br>НЕ СКУЧНО</p>
+            <h3>красивая дорога</h3>
+            <p class="item-number">&mdash;№4&mdash;</p>
+            <p class="item-text">ехать в Седону из Лас-Вегаса совсем не скучно</p>
           </li>
           <li class="feature-item5">
-            <h3>МАЛО<br/> ТУРИСТОВ </h3>
-            <p class="item-number">&mdash;№5 &mdash;</p>
-            <p class="item-text"> БОЛЬШИНСТВО ЕДЕТ В ГРАНД-КАНЬОН<br>И ТОЛПИТСЯ ТАМ</p>
+            <h3>мало туристов</h3>
+            <p class="item-number">&mdash;№5&mdash;</p>
+            <p class="item-text">большинство едет в Гранд-Каньон и толпится там</p>
           </li>
         </ul>
       </section>
       <div class="question-block">
-        <h2 class="question">ЗАИНТЕРЕСОВАЛИСЬ?</h2>
-        <p class="preview-hotel ">УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ,<br>И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОХЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
+        <p class="question">заинтересовались?</p>
+        <p class="preview-hotel">укажите предполагаемые даты поездки,<br/> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
       </div>
-      <button class="search-button" type="button"><span class="search-button-text">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</span></button>
-
-
+      <button class="search-button" type="button">
+        <span class="search-button-text">поиск гостиницы в Седоне</span>
+      </button>
       <div class="map-city">
         <img class="map" src="img/map1.jpg" width="1199" height="594" alt="Седона на карте">
       </div>
     </main>
-
     <footer class="footer">
       <div class="contact">
         <p class="footer-contact">
           #VISITSEDONA<br>
-        ТЕЛ: +7 (495) 666-01-66
+          тел: <a href="tel:+74956660166">+7 (495) 666-01-66</a>
         </p>
-    </div>
+     </div>
       <div class="footer-social">
         <ul class="social-links">
           <li class="social-button">
@@ -122,51 +133,53 @@
         </ul>
       </div>
       <div class="footer-copyright">
-
         <p class="foot-copyright">
-        WEBSITE BY
+        website by
         </p>
-
         <a class="logo-htmlacademy" href="https://htmlacademy.ru/intensive/htmlcss">
           <svg class="logotyp" width="115" height="41" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.52 1.06h-.17L0 2.72v28.77l15.35 9.35 15.35-9.35V2.72L15.52 1.06zm61.5 1.56h-1.93v13.11h1.93V2.63zm-36.16.01v5.14a3.98 3.98 0 012.85-1.23c.97-.06 1.92.3 2.62 1 .69.7 1.06 1.67 1.01 2.67v5.55h-1.97v-5.3c.05-.51-.1-1.03-.41-1.43a1.9 1.9 0 00-1.3-.72h-.3c-1.01.06-1.93.62-2.46 1.5v5.95h-2V2.63h1.96zm36.16 28.85h-1.74v-1.42a4.06 4.06 0 01-3.37 1.66 4.7 4.7 0 01-4.33-4.74 4.7 4.7 0 014.33-4.73c1.21-.04 2.37.47 3.17 1.4v-5.33h1.94v13.16zm-29.95-1.42c.2 0 .39-.04.58-.1v1.43c-.4.15-.82.23-1.25.22a1.76 1.76 0 01-1.76-1.08 5.04 5.04 0 01-3.31 1.17c-1.6 0-3.07-.9-3.07-2.75 0-2.3 2.1-3.01 3.91-3.01.77.01 1.54.1 2.29.27v-.33c0-1.07-.8-1.9-2.31-1.9-1.1 0-2.17.23-3.17.68v-1.83c1.09-.38 2.22-.58 3.37-.6 2.49 0 4.02 1.22 4.02 3.95v3.23a.6.6 0 00.13.43c.1.12.23.2.39.2h.18v.02zm-6.8-1.22c.03.39.2.75.5 1 .28.26.66.38 1.04.35h.12c.95 0 1.87-.39 2.54-1.08v-1.53c-.63-.14-1.27-.21-1.91-.23-1.05 0-2.28.36-2.28 1.49zm15.75-5.9a5.18 5.18 0 00-2.7-.7h-.38c-1.2.05-2.35.58-3.18 1.48-.83.9-1.27 2.1-1.23 3.34v.44a4.48 4.48 0 004.72 4.23c1 .03 2-.18 2.91-.61v-1.85c-.78.45-1.67.69-2.56.7a2.88 2.88 0 01-2.66-1.43 3.02 3.02 0 010-3.07 2.88 2.88 0 012.66-1.43c.86 0 1.7.26 2.42.75v-1.85zm10.13 7.12c.2 0 .4-.04.58-.1v1.43c-.4.15-.82.23-1.24.22a1.76 1.76 0 01-1.77-1.08 5.04 5.04 0 01-3.3 1.17c-1.6 0-3.08-.9-3.08-2.75 0-2.3 2.11-3.01 3.92-3.01.77.01 1.53.1 2.29.27v-.33c0-1.07-.8-1.9-2.32-1.9-1.09 0-2.16.23-3.16.68v-1.83c1.08-.38 2.22-.58 3.37-.6 2.49 0 4.02 1.22 4.02 3.95v3.23a.6.6 0 00.12.43c.1.12.24.2.4.2h.17v.02zm-6.3-.21c-.29-.26-.47-.62-.5-1.01h.03c0-1.13 1.16-1.49 2.28-1.49.64.02 1.28.1 1.9.23v1.53a3.54 3.54 0 01-2.54 1.08h-.11a1.4 1.4 0 01-1.05-.34zm9.48-2.92c0-1.64 1.3-2.98 2.9-2.98l.03.06c1.21 0 2.31.73 2.8 1.86v2.16a3.02 3.02 0 01-2.82 1.88 2.95 2.95 0 01-2.91-2.98zm14.02-4.68c3.5 0 4.7 2.89 4.13 5.49h-6.56c.22 1.62 1.76 2.28 3.37 2.28.96 0 1.91-.22 2.78-.64v1.73c-1 .43-2.08.64-3.16.61-2.67 0-5.01-1.53-5.01-4.77a4.57 4.57 0 011.14-3.27c.8-.89 1.9-1.41 3.08-1.46h.23v.03zm-2.48 3.93a2.42 2.42 0 012.57-2.27h.05c.62-.06 1.23.17 1.67.62.44.45.67 1.08.62 1.71h-4.91v-.06zm8.62 5.28V22.5h1.74v1.07a3.98 3.98 0 012.93-1.37 3 3 0 012.79 1.52 4.3 4.3 0 013.07-1.44 3.2 3.2 0 012.49 1.01c.64.69.97 1.63.88 2.58v5.61h-2v-5.55c.05-.46-.08-.91-.37-1.27a1.67 1.67 0 00-1.13-.62h-.27c-.87.05-1.67.5-2.19 1.2v6.24h-2v-5.55c.04-.46-.1-.92-.38-1.27-.29-.35-.7-.57-1.15-.61h-.21c-.94.08-1.8.6-2.33 1.4v6.07h-1.83l-.04-.06zm24.49-8.99h-2l-2.66 6.8-3.01-6.78h-2.11l4.22 9.06-.18.45c-.52 1.36-1.24 2.05-2.19 2.05-.3 0-.6-.04-.9-.13v1.7c.39.1.78.14 1.17.15 1.33 0 2.58-.75 3.53-3.09l4.13-10.2zM52.68 6.8V3.55l-1.95.46v2.72h-1.59V8.5h1.65V13c-.07.83.23 1.64.82 2.21.59.58 1.4.85 2.2.75.79 0 1.58-.12 2.33-.38v-1.73c-.57.24-1.17.36-1.78.36-1.14 0-1.67-.39-1.67-1.58v-4.1h3.16V6.78H52.7zm5.7 8.96v-9h1.76v1.08a3.98 3.98 0 012.92-1.38A3 3 0 0165.8 7.9a4.3 4.3 0 013.07-1.44 3.2 3.2 0 012.5 1.05c.63.7.94 1.66.84 2.62v5.62h-2V10.2c.04-.46-.1-.91-.37-1.27a1.67 1.67 0 00-1.14-.62h-.24c-.86.05-1.66.5-2.18 1.2v6.24h-2V10.2c.04-.46-.1-.91-.37-1.27a1.67 1.67 0 00-1.13-.62h-.25c-.94.08-1.8.6-2.33 1.39v6.07H58.4zM28.7 30.3v.02-.02zm0-11.98V30.3l-13.35 8.13L2 30.32v-11.8L15.3 26.6v1.42l-9.1-5.5v1.41l9.15 5.62v1.5L6.19 25.5v1.45l9.16 5.62 9.23-5.65v-6.1l4.12-2.5zm0-1.54l-3.66 2.16-1.7 1.07-8.03-4.93v1.42l6.85 4.23-.15.1-1.06.58-5.66-3.46v1.45l4.47 2.72-1.05.72-3.38-2.05v1.41l2.22 1.34-2.25 1.36L2.1 16.86l13.2-8.13 13.4 8.05zM15.3 7.28l13.42 8.07V4.56L15.36 3.13 2.02 4.56v10.8l13.27-8.09z" /></svg>
         </a>
         </div>
-    </footer>
-
+     </footer>
     <div class="form-booking modal-close modal-show">
       <form class="form-reserve" action="https://echo.htmlacademy.ru/" method="POST">
         <div class="arrival">
           <p class="booking-info arrival">
-            <label for="arrival-date">ДАТА ЗАЕЗДА:</label>
-            <input id="arrival-date" type="text" name="date"  placeholder="24 АПРЕЛЯ 2017">
+            <label for="arrival-date">дата заезда:</label>
+            <input id="arrival-date" type="text" name="date" placeholder="24 АПРЕЛЯ 2017">
           </p>
-          <button class="select-date-button" type="button" ><svg width="21" height="23" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.406 3.025h2.845c.966 0 1.749.822 1.749 1.837v16.302C21 22.179 20.217 23 19.251 23H1.75C.784 23 0 22.179 0 21.164V4.862c0-1.015.784-1.837 1.75-1.837h2.843V1.648c0-.381.294-.689.657-.689.362 0 .656.308.656.689v1.377h3.938V1.648c0-.381.294-.689.657-.689.361 0 .655.308.655.689v1.377h3.938V1.648c0-.381.293-.689.656-.689.362 0 .656.308.656.689v1.377zm3.1586 18.459a.4476.4476 0 00.1234-.32h.001V4.862c0-.253-.196-.459-.437-.459h-2.845v1.378c0 .381-.294.689-.656.689-.363 0-.656-.308-.656-.689V4.403h-3.938v1.378c0 .381-.294.689-.655.689-.363 0-.657-.308-.657-.689V4.403H5.907v1.378c0 .381-.294.689-.656.689-.363 0-.657-.308-.657-.689V4.403H1.75a.45.45 0 00-.438.459v16.302a.45.45 0 00.438.459h17.501a.4482.4482 0 00.3136-.139z" fill="#A9A9A9"/><path fill-rule="evenodd" clip-rule="evenodd" d="M4.594 9.2251h2.625v2.066H4.594v-2.066zm0 3.443h2.625v2.067H4.594v-2.067zm2.625 3.444H4.594v2.066h2.625v-2.066zm1.969 0h2.625v2.066H9.188v-2.066zm2.625-3.444H9.188v2.067h2.625v-2.067zm-2.625-3.443h2.625v2.066H9.188v-2.066zm7.218 6.887h-2.625v2.066h2.625v-2.066zm-2.625-3.444h2.625v2.067h-2.625v-2.067zm2.625-3.443h-2.625v2.066h2.625v-2.066z" fill="#A9A9A9"/></svg></button>
+          <button class="select-date-button" type="button">
+           <svg width="21" height="23" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.406 3.025h2.845c.966 0 1.749.822 1.749 1.837v16.302C21 22.179 20.217 23 19.251 23H1.75C.784 23 0 22.179 0 21.164V4.862c0-1.015.784-1.837 1.75-1.837h2.843V1.648c0-.381.294-.689.657-.689.362 0 .656.308.656.689v1.377h3.938V1.648c0-.381.294-.689.657-.689.361 0 .655.308.655.689v1.377h3.938V1.648c0-.381.293-.689.656-.689.362 0 .656.308.656.689v1.377zm3.1586 18.459a.4476.4476 0 00.1234-.32h.001V4.862c0-.253-.196-.459-.437-.459h-2.845v1.378c0 .381-.294.689-.656.689-.363 0-.656-.308-.656-.689V4.403h-3.938v1.378c0 .381-.294.689-.655.689-.363 0-.657-.308-.657-.689V4.403H5.907v1.378c0 .381-.294.689-.656.689-.363 0-.657-.308-.657-.689V4.403H1.75a.45.45 0 00-.438.459v16.302a.45.45 0 00.438.459h17.501a.4482.4482 0 00.3136-.139z" fill="#A9A9A9"/><path fill-rule="evenodd" clip-rule="evenodd" d="M4.594 9.2251h2.625v2.066H4.594v-2.066zm0 3.443h2.625v2.067H4.594v-2.067zm2.625 3.444H4.594v2.066h2.625v-2.066zm1.969 0h2.625v2.066H9.188v-2.066zm2.625-3.444H9.188v2.067h2.625v-2.067zm-2.625-3.443h2.625v2.066H9.188v-2.066zm7.218 6.887h-2.625v2.066h2.625v-2.066zm-2.625-3.444h2.625v2.067h-2.625v-2.067zm2.625-3.443h-2.625v2.066h2.625v-2.066z" fill="#A9A9A9"/></svg>
+          </button>
         </div>
         <div class="departure">
           <p class="booking-info departure">
-            <label for="departure-date">ДАТА ВЫЕЗДА:</label>
+            <label for="departure-date">дата выезда:</label>
             <input id="departure-date" type="text" name="date" placeholder="4 ИЮЛЯ 2017">
           </p>
-          <button class="select-date-button-departure" type="button"><svg width="21" height="23" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.406 3.025h2.845c.966 0 1.749.822 1.749 1.837v16.302C21 22.179 20.217 23 19.251 23H1.75C.784 23 0 22.179 0 21.164V4.862c0-1.015.784-1.837 1.75-1.837h2.843V1.648c0-.381.294-.689.657-.689.362 0 .656.308.656.689v1.377h3.938V1.648c0-.381.294-.689.657-.689.361 0 .655.308.655.689v1.377h3.938V1.648c0-.381.293-.689.656-.689.362 0 .656.308.656.689v1.377zm3.1586 18.459a.4476.4476 0 00.1234-.32h.001V4.862c0-.253-.196-.459-.437-.459h-2.845v1.378c0 .381-.294.689-.656.689-.363 0-.656-.308-.656-.689V4.403h-3.938v1.378c0 .381-.294.689-.655.689-.363 0-.657-.308-.657-.689V4.403H5.907v1.378c0 .381-.294.689-.656.689-.363 0-.657-.308-.657-.689V4.403H1.75a.45.45 0 00-.438.459v16.302a.45.45 0 00.438.459h17.501a.4482.4482 0 00.3136-.139z" fill="#A9A9A9"/><path fill-rule="evenodd" clip-rule="evenodd" d="M4.594 9.2251h2.625v2.066H4.594v-2.066zm0 3.443h2.625v2.067H4.594v-2.067zm2.625 3.444H4.594v2.066h2.625v-2.066zm1.969 0h2.625v2.066H9.188v-2.066zm2.625-3.444H9.188v2.067h2.625v-2.067zm-2.625-3.443h2.625v2.066H9.188v-2.066zm7.218 6.887h-2.625v2.066h2.625v-2.066zm-2.625-3.444h2.625v2.067h-2.625v-2.067zm2.625-3.443h-2.625v2.066h2.625v-2.066z" fill="#A9A9A9"/></svg></button>
+          <button class="select-date-button-departure" type="button">
+            <svg width="21" height="23" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.406 3.025h2.845c.966 0 1.749.822 1.749 1.837v16.302C21 22.179 20.217 23 19.251 23H1.75C.784 23 0 22.179 0 21.164V4.862c0-1.015.784-1.837 1.75-1.837h2.843V1.648c0-.381.294-.689.657-.689.362 0 .656.308.656.689v1.377h3.938V1.648c0-.381.294-.689.657-.689.361 0 .655.308.655.689v1.377h3.938V1.648c0-.381.293-.689.656-.689.362 0 .656.308.656.689v1.377zm3.1586 18.459a.4476.4476 0 00.1234-.32h.001V4.862c0-.253-.196-.459-.437-.459h-2.845v1.378c0 .381-.294.689-.656.689-.363 0-.656-.308-.656-.689V4.403h-3.938v1.378c0 .381-.294.689-.655.689-.363 0-.657-.308-.657-.689V4.403H5.907v1.378c0 .381-.294.689-.656.689-.363 0-.657-.308-.657-.689V4.403H1.75a.45.45 0 00-.438.459v16.302a.45.45 0 00.438.459h17.501a.4482.4482 0 00.3136-.139z" fill="#A9A9A9"/><path fill-rule="evenodd" clip-rule="evenodd" d="M4.594 9.2251h2.625v2.066H4.594v-2.066zm0 3.443h2.625v2.067H4.594v-2.067zm2.625 3.444H4.594v2.066h2.625v-2.066zm1.969 0h2.625v2.066H9.188v-2.066zm2.625-3.444H9.188v2.067h2.625v-2.067zm-2.625-3.443h2.625v2.066H9.188v-2.066zm7.218 6.887h-2.625v2.066h2.625v-2.066zm-2.625-3.444h2.625v2.067h-2.625v-2.067zm2.625-3.443h-2.625v2.066h2.625v-2.066z" fill="#A9A9A9"/></svg>
+          </button>
        </div>
        <div class="form-wrapper">
         <p class="booking-info adult" >
-          <label for="adult-amount">ВЗРОСЛЫЕ:</label>
-          <button class="select-adult down" type="button"> </button>
+          <label for="adult-amount">взрослые:</label>
+          <button class="select-adult down" type="button"></button>
           <input id="adult-amount" type="text" name="amount" placeholder="2">
-          <button class="select-adult up" type="button"> </button>
+          <button class="select-adult up" type="button"></button>
         </p>
         <p class="booking-info children">
-          <label for="child-amount">ДЕТИ:</label>
-          <button class="select-children down" type="button"> </button>
+          <label for="child-amount">дети:</label>
+          <button class="select-children down" type="button"></button>
           <input id="child-amount" type="text" name="amount" placeholder="0">
-          <button class="select-children up" type="button"> </button>
+          <button class="select-children up" type="button"></button>
         </p>
-
-      </div>
-        <button class="button-date" type="submit" ><span class="button-date-text">HАЙТИ</span></button>
+       </div>
+        <button class="button-date" type="submit" >
+          <span class="button-date-text">найти</span>
+        </button>
       </form>
-      </div>
+     </div>
     </div>
     <script src="js/main.js"></script>
   </body>
