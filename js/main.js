@@ -5,7 +5,6 @@ const modalForm = document.querySelector(".form-booking");
 const adults = modalForm.querySelector("#adult-amount");
 const childrens = modalForm.querySelector("#child-amount");
 const buttonSelect = document.querySelector(".button-date");
-const activeMap = document.querySelector(".active-map");
 let isStorageSupport = true;
 let storageAdult = "";
 let storageChildren = "";
@@ -20,7 +19,6 @@ try {
 buttonForm.addEventListener("click", function(evt) {
     evt.preventDefault();
     modalForm.classList.toggle("modal-show");
-    activeMap.classList.toggle("map-close");
     if (storageAdult) {
       adults.value = storageAdult;
     }

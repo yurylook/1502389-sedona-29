@@ -290,15 +290,10 @@ img {
   margin-top: 0;
   margin-bottom: -120px;
   background-color: var(--light-gray);
-  background-image: url("../img/map1.jpg");
 }
 
 .map-city iframe {
   border: none;
-}
-
-.map-close {
-  display: none;
 }
 
 .preview-hotel {
