@@ -286,10 +286,9 @@ img {
 
 .map-city {
   width: 1200px;
-  height: 597px;
+  height: 474px;
   margin-top: 0;
-  margin-bottom: -120px;
-  background-color: var(--light-gray);
+  background-color: #c1e8d8;
 }
 
 .map-city iframe {
@@ -639,7 +638,7 @@ input, button {
   width: 1200px;
   height: 120px;
   background-color: var(--white-rgba);
-  margin-top: -4px;
+  margin-top: 0;
   display: flex;
   flex-direction: row;
 }
@@ -728,9 +727,7 @@ input, button {
 .logo-htmlacademy {
   width: 115px;
   height: 41px;
-  margin:0 auto;
-  padding-right: 130px;
-  background-color: var(--basic-white);
+  margin-right: 137px;
   border: none;
 }
 
